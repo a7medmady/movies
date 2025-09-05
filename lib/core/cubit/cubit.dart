@@ -48,7 +48,8 @@ class MovieCubit extends Cubit<MovieState> {
     getPopularMovies();
     getTopRatedMovies();
   }
-
+  
+  // index page  
   int getSelectedIndex() {
     return pages.indexOf(indexPage);
   }
